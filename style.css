@@ -645,4 +645,34 @@ body{
 .page-number.active {
     background: #ff904f;
     color: #fff;
+}.show-more {
+    width: 100%;
+    margin: 30px 0;
+}
+
+.show-more button {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    padding: 14px 0;
+    font-size: 15px;
+    font-weight: 600;
+    text-transform: capitalize;
+    color: #656565;
+    background-color: #ffffff;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.show-more button i {
+    font-size: 15px;
+    animation: spin 1.2s linear infinite;
+}
+
+.show-more button:hover {
+    background-color: #e87e3e;
 }
