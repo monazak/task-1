@@ -27,6 +27,8 @@
                 </div>
             </div>
     </div>
+
+
     <div class="site-container">
 
         <header class="site-header">
@@ -80,28 +82,387 @@
             </nav>
 
         </header>
-        <br>
-        <br>
+
         <main class="site-main">
-            <section id="home">
-                <h2>Home</h2>
-                <p>This is the home section of the website.</p>
-            </section>
-            <section id="about">
-                <h2>About</h2>
-                <p>This section contains information about us.</p>
-            </section>
-            <section id="services">
-                <h2>Services</h2>
-                <p>Details about the services we offer can be found here.</p>
-            </section>
-            <section id="contact">
-                <h2>Contact</h2>
-                <p>Get in touch with us through this section.</p>
-            </section>
+            <div class="bage-navigetor">
+                <a href="#">home</a> / <a href="#">shop</a> / <a href="#">product details</a>
+            </div>
+            <div class="category-header">
+                <h3>tablet & laptops accessories</h3>
+            </div>
+
+            <div class="side-product-container">
+                <div class="side-section">
+                    <div class="side-bar">
+                        <div class="bar-section"> 
+                            <h5> <i class="fa-solid fa-caret-down"></i>related categories</h5>
+                            <ul>
+                                <li>
+                                    <ul><li> tablet & laptops accessories</li></ul>   
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="bar-section">
+                            <h5> <i class="fa-solid fa-caret-down"></i>refine by</h5>
+                            <div>
+                                <button>android 6.0</button>
+                                <i class="fa-solid fa-xmark"></i>
+                            </div>
+                            <button>clear all</button>
+                            
+                        </div>
+                         <div class="bar-section price-filter">
+                            <h5> <i class="fa-solid fa-caret-down"></i>price</h5>
+                            <input 
+                                type="range" 
+                                min="55" 
+                                max="5000" 
+                                value="2500" 
+                                class="price-range"
+                                id="priceRange"
+                            > 
+                            <p class="price-text">
+                                price: $<span id="priceValue">2500</span>
+                            </p>                            
+                        </div>
+                        <div class="bar-section">
+                            <h5> <i class="fa-solid fa-caret-down"></i>operating system</h5>
+                            <div class="operating-system-options">
+                                <p>android 6.0</p>
+                                <p>android 7.0</p>
+                                <p>android 8.0</p>
+                                <p>android 9.0</p>
+                            </div>
+                        </div>
+                        <div class="bar-section">
+                            <h5> <i class="fa-solid fa-caret-down"></i>screen sizes</h5>
+                            <div class="operating-system-options">
+                                <p>100x200</p>
+                                <p>3000x4000</p>
+                                <p>1200x3899</p>
+                                <p>3000x3000</p>
+                                <p>1200x3899</p>
+                                <p>3000x3000</p>
+                            </div>
+                        </div>
+                        <div class="bar-section">
+                            <h5> <i class="fa-solid fa-caret-down "></i>proccess core</h5>
+                        </div>
+                        <div class="bar-section">
+                            <h5> <i class="fa-solid fa-caret-down "></i>tablet data capacilty</h5>
+                        </div>
+                        <div class="bar-section">
+                            <h5> <i class="fa-solid fa-caret-down "></i>proccess core</h5>
+                        </div>
+                        <div class="bar-section">
+                            <h5> <i class="fa-solid fa-caret-down "></i>tablet data capacilty</h5>
+                        </div>
+                    </div>
+                    <div class="product-tag">
+                        <button>asus tablets</button>
+                        <button>lenovo tablets</button>
+                        <button>samsung tablets</button>
+                        <button>apple tablets</button>
+                    </div>
+                </div>
+                <div class="products-section">
+                    <div class="filter-bar">
+                            <div class="filter-left">
+                                <i></i>
+                                <i></i>
+                                <p></p>
+                            </div>
+                            <div class="filter-right">
+                                <label for="sort-by">sort by:</label>
+                                <select name="sort-by" id="sort-by">
+                                    <option value="price-low-to-high">price: low to high</option>
+                                    <option value="default">default</option>
+                                    <option value="popularity">popularity</option>
+                                    <option value="rating">rating</option>
+                                    <option value="newness">newness</option>
+                                    <option value="price-high-to-low">price: high to low</option>
+                                </select>
+                            </div>
+                    </div>
+                    <div class="products-container">
+                        <!-- products will go here -->
+                        <div class="product-cart">
+                            <div class="product-image">
+                                <img src="/images/product-1.jpg" alt="product 1">
+                            </div>
+                            <div class="stars-image-container">
+                                <img src="/images/stars-5.png" alt="5 stars">
+                            </div>
+                            <div class="product-details">
+                                <h7 class="product-name">product name 1</h7>
+                                <p class="product-price">$100.00</p>
+                                <button class="add-to-cart-button">add to cart</button>
+                            </div>           
+                        </div>
+                        <div class="product-cart">
+                            <div class="product-image">
+                                <img src="/images/product-1.jpg" alt="product 1">
+                            </div>
+                            <div class="stars-image-container">
+                                <img src="/images/stars-5.png" alt="5 stars">
+                            </div>
+                            <div class="product-details">
+                                <h7 class="product-name">product name 1</h7>
+                                <p class="product-price">$100.00</p>
+                                <button class="add-to-cart-button">add to cart</button>
+                            </div>           
+                        </div>
+                        <div class="product-cart">
+                            <div class="product-image">
+                                <img src="/images/product-1.jpg" alt="product 1">
+                            </div>
+                            <div class="stars-image-container">
+                                <img src="/images/stars-5.png" alt="5 stars">
+                            </div>
+                            <div class="product-details">
+                                <h7 class="product-name">product name 1</h7>
+                                <p class="product-price">$100.00</p>
+                                <button class="add-to-cart-button">add to cart</button>
+                            </div>           
+                        </div>
+                        <div class="product-cart">
+                            <div class="product-image">
+                                <img src="/images/product-1.jpg" alt="product 1">
+                            </div>
+                            <div class="stars-image-container">
+                                <img src="/images/stars-5.png" alt="5 stars">
+                            </div>
+                            <div class="product-details">
+                                <h7 class="product-name">product name 1</h7>
+                                <p class="product-price">$100.00</p>
+                                <button class="add-to-cart-button">add to cart</button>
+                            </div>           
+                        </div>
+                        <div class="product-cart">
+                            <div class="product-image">
+                                <img src="/images/product-1.jpg" alt="product 1">
+                            </div>
+                            <div class="stars-image-container">
+                                <img src="/images/stars-5.png" alt="5 stars">
+                            </div>
+                            <div class="product-details">
+                                <h7 class="product-name">product name 1</h7>
+                                <p class="product-price">$100.00</p>
+                                <button class="add-to-cart-button">add to cart</button>
+                            </div>           
+                        </div>
+                        <div class="product-cart">
+                            <div class="product-image">
+                                <img src="/images/product-1.jpg" alt="product 1">
+                            </div>
+                            <div class="stars-image-container">
+                                <img src="/images/stars-5.png" alt="5 stars">
+                            </div>
+                            <div class="product-details">
+                                <h7 class="product-name">product name 1</h7>
+                                <p class="product-price">$100.00</p>
+                                <button class="add-to-cart-button">add to cart</button>
+                            </div>           
+                        </div>
+                        <div class="product-cart">
+                            <div class="product-image">
+                                <img src="/images/product-1.jpg" alt="product 1">
+                            </div>
+                            <div class="stars-image-container">
+                                <img src="/images/stars-5.png" alt="5 stars">
+                            </div>
+                            <div class="product-details">
+                                <h7 class="product-name">product name 1</h7>
+                                <p class="product-price">$100.00</p>
+                                <button class="add-to-cart-button">add to cart</button>
+                            </div>           
+                        </div>
+                        <div class="product-cart">
+                            <div class="product-image">
+                                <img src="/images/product-1.jpg" alt="product 1">
+                            </div>
+                            <div class="stars-image-container">
+                                <img src="/images/stars-5.png" alt="5 stars">
+                            </div>
+                            <div class="product-details">
+                                <h7 class="product-name">product name 1</h7>
+                                <p class="product-price">$100.00</p>
+                                <button class="add-to-cart-button">add to cart</button>
+                            </div>           
+                        </div>
+                        <div class="product-cart">
+                            <div class="product-image">
+                                <img src="/images/product-1.jpg" alt="product 1">
+                            </div>
+                            <div class="stars-image-container">
+                                <img src="/images/stars-5.png" alt="5 stars">
+                            </div>
+                            <div class="product-details">
+                                <h7 class="product-name">product name 1</h7>
+                                <p class="product-price">$100.00</p>
+                                <button class="add-to-cart-button">add to cart</button>
+                            </div>           
+                        </div>
+                        <div class="product-cart">
+                            <div class="product-image">
+                                <img src="/images/product-1.jpg" alt="product 1">
+                            </div>
+                            <div class="stars-image-container">
+                                <img src="/images/stars-5.png" alt="5 stars">
+                            </div>
+                            <div class="product-details">
+                                <h7 class="product-name">product name 1</h7>
+                                <p class="product-price">$100.00</p>
+                                <button class="add-to-cart-button">add to cart</button>
+                            </div>           
+                        </div>
+                        <div class="product-cart">
+                            <div class="product-image">
+                                <img src="/images/product-1.jpg" alt="product 1">
+                            </div>
+                            <div class="stars-image-container">
+                                <img src="/images/stars-5.png" alt="5 stars">
+                            </div>
+                            <div class="product-details">
+                                <h7 class="product-name">product name 1</h7>
+                                <p class="product-price">$100.00</p>
+                                <button class="add-to-cart-button">add to cart</button>
+                            </div>           
+                        </div>
+                        <div class="product-cart">
+                            <div class="product-image">
+                                <img src="/images/product-1.jpg" alt="product 1">
+                            </div>
+                            <div class="stars-image-container">
+                                <img src="/images/stars-5.png" alt="5 stars">
+                            </div>
+                            <div class="product-details">
+                                <h7 class="product-name">product name 1</h7>
+                                <p class="product-price">$100.00</p>
+                                <button class="add-to-cart-button">add to cart</button>
+                            </div>           
+                        </div>
+                        <div class="product-cart">
+                            <div class="product-image">
+                                <img src="/images/product-1.jpg" alt="product 1">
+                            </div>
+                            <div class="stars-image-container">
+                                <img src="/images/stars-5.png" alt="5 stars">
+                            </div>
+                            <div class="product-details">
+                                <h7 class="product-name">product name 1</h7>
+                                <p class="product-price">$100.00</p>
+                                <button class="add-to-cart-button">add to cart</button>
+                            </div>           
+                        </div>
+                        <div class="product-cart">
+                            <div class="product-image">
+                                <img src="/images/product-1.jpg" alt="product 1">
+                            </div>
+                            <div class="stars-image-container">
+                                <img src="/images/stars-5.png" alt="5 stars">
+                            </div>
+                            <div class="product-details">
+                                <h7 class="product-name">product name 1</h7>
+                                <p class="product-price">$100.00</p>
+                                <button class="add-to-cart-button">add to cart</button>
+                            </div>           
+                        </div>
+                        <div class="product-cart">
+                            <div class="product-image">
+                                <img src="/images/product-1.jpg" alt="product 1">
+                            </div>
+                            <div class="stars-image-container">
+                                <img src="/images/stars-5.png" alt="5 stars">
+                            </div>
+                            <div class="product-details">
+                                <h7 class="product-name">product name 1</h7>
+                                <p class="product-price">$100.00</p>
+                                <button class="add-to-cart-button">add to cart</button>
+                            </div>           
+                        </div>
+                    </div>
+
+                    <div>
+                        <button> <i class="fa-solid fa-spinner"></i>show more</button>
+                    </div>
+                    <div class="page-number-container">
+                        <button><i class="fa-solid fa-chevron-left"></i></button>
+                        <button class="page-number active">1</button>
+                        <button class="page-number">2</button>
+                        <button class="page-number">3</button>
+                        <button class="page-number">4</button>
+                        <button class="page-number">5</button>
+                        <p>...</p>
+                        <button><i class="fa-solid fa-chevron-right"></i></button>
+                    </div>
+                </div>
+            </div>
         </main>
 
+        <section class="recently-viewd-section">
+            <h3 class="recently-viewd-header">recently viewed products</h3>
+            <div class="recently-viewd-container products-container">
+                <!-- recently viewed products will go here -->
+                <div class="recently-viewd-cart product-cart">
+                    <div class="product-image">
+                        <img src="/images/product-1.jpg" alt="product 1">
+                    </div>
+                    <div class="stars-image-container">
+                        <img src="/images/stars-5.png" alt="5 stars">
+                    </div>
+                    <div class="product-details">
+                        <h7 class="product-name">product name 1</h7>
+                        <p class="product-price">$100.00</p>
+                        <button class="add-to-cart-button">add to cart</button>
+                    </div>           
+                </div>
+                <div class="recently-viewd-cart product-cart">
+                    <div class="product-image">
+                        <img src="/images/product-1.jpg" alt="product 1">
+                    </div>
+                    <div class="stars-image-container">
+                        <img src="/images/stars-5.png" alt="5 stars">
+                    </div>
+                    <div class="product-details">
+                        <h7 class="product-name">product name 1</h7>
+                        <p class="product-price">$100.00</p>
+                        <button class="add-to-cart-button">add to cart</button>
+                    </div>           
+                </div>
+                <div class="recently-viewd-cart product-cart">
+                    <div class="product-image">
+                        <img src="/images/product-1.jpg" alt="product 1">
+                    </div>
+                    <div class="stars-image-container">
+                        <img src="/images/stars-5.png" alt="5 stars">
+                    </div>
+                    <div class="product-details">
+                        <h7 class="product-name">product name 1</h7>
+                        <p class="product-price">$100.00</p>
+                        <button class="add-to-cart-button">add to cart</button>
+                    </div>           
+                </div>
+                <div class="recently-viewd-cart product-cart">
+                    <div class="product-image">
+                        <img src="/images/product-1.jpg" alt="product 1">
+                    </div>
+                    <div class="stars-image-container">
+                        <img src="/images/stars-5.png" alt="5 stars">
+                    </div>
+                    <div class="product-details">
+                        <h7 class="product-name">product name 1</h7>
+                        <p class="product-price">$100.00</p>
+                        <button class="add-to-cart-button">add to cart</button>
+                    </div>           
+                </div>
+            </div>
+        </section>
+
     </div>
+
+
+
     <footer class="site-footer">
             <div class="footer-container">
 
@@ -165,10 +526,10 @@
     </footer>
 
     <div class="bottom-footer hero-container">
-            <p class="copyright">© 2024 youshope. all rights reserved.</p>
-            <div>
-                <img src="/images/payment-methods.png" alt="payment methods" class="payment-methods">
-            </div>
+        <p class="copyright">© 2024 youshope. all rights reserved.</p>
+        <div>
+            <img src="/images/payment-methods.png" alt="payment methods" class="payment-methods">
+        </div>
     </div>
 </body>
 </html>
