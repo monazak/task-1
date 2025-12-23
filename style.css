@@ -347,3 +347,16 @@ body{
 .social-icons i:hover {
     color: #ff904f;
 }
+.bottom-footer{
+    display: flex;
+    justify-content: space-between;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    padding: 5px 20vh 5px 20vh;
+    background: linear-gradient(to right, #0f0f0f, #222222);
+}
+.payment-methods{
+    height: 30px;
+    object-fit: contain;
+}
