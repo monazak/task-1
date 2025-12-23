@@ -4,10 +4,10 @@
     box-sizing: border-box;    
 }
 body{
-    margin: 0 20vh 0 20vh;
     text-transform: capitalize;  
 }
 .site-container {
+    margin: 0 20vh 0 20vh;
     font-family: Arial, sans-serif;
     background-color: #f7f7f7;
 }
@@ -15,10 +15,11 @@ body{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 5px 10px;
     background-color: #3a3a3a;
     color: #edecec;
     font-size: 12px;
+    padding: 5px 20vh 5px 20vh;
+
 }
 .hero-left-container, .hero-right-container {
     display: flex;
@@ -261,4 +262,88 @@ body{
 .tabs-list li a:hover,
 .all-categories-header:hover {
     text-decoration: underline;
+}
+/*footer styles*/
+.site-footer {
+    background: linear-gradient(to right, #1c1c1c, #2b2b2b);
+    color: #ccc;
+    padding: 50px 20px;
+    font-family: Arial, sans-serif;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}   
+
+.footer-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 30px;
+    max-width: 1200px;
+    margin: auto;
+}
+
+.footer-column h4 {
+    color: #fff;
+    font-size: 16px;
+    margin-bottom: 15px;
+}
+
+.footer-column p {
+    font-size: 14px;
+    margin-bottom: 10px;
+}
+
+.footer-column ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footer-column ul li {
+    margin-bottom: 8px;
+}
+
+.footer-column ul li a {
+    color: #ccc;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+.footer-column ul li a:hover {
+    color: #ff904f;
+}
+
+/* Subscribe */
+.subscribe p {
+    font-size: 14px;
+    margin-bottom: 15px;
+}
+
+.subscribe-box {
+    display: flex;
+    margin-bottom: 15px;
+}
+
+.subscribe-box input {
+    flex: 1;
+    padding: 10px;
+    border: none;
+    outline: none;
+}
+
+.subscribe-box button {
+    background-color: #ff904f;
+    border: none;
+    color: #fff;
+    padding: 0 15px;
+    cursor: pointer;
+}
+
+.social-icons i {
+    margin-right: 10px;
+    cursor: pointer;
+    color: #ccc;
+}
+
+.social-icons i:hover {
+    color: #ff904f;
 }
