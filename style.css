@@ -269,8 +269,7 @@ body{
     color: #ccc;
     padding: 50px 20px;
     font-family: Arial, sans-serif;
-    position: fixed;
-    bottom: 0;
+
     width: 100%;
 }   
 
@@ -350,8 +349,6 @@ body{
 .bottom-footer{
     display: flex;
     justify-content: space-between;
-    position: fixed;
-    bottom: 0;
     width: 100%;
     padding: 5px 20vh 5px 20vh;
     background: linear-gradient(to right, #0f0f0f, #222222);
@@ -675,4 +672,34 @@ body{
 
 .show-more button:hover {
     background-color: #e87e3e;
+}
+
+/* Recently Viewed Section */
+.recently-viewd-section {
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.recently-viewd-header {
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 20px;
+    text-transform: capitalize;
+}
+
+.recently-viewd-cart-container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+
+}
+.recently-viewd-cart-container{
+    background-color: white;
+}
+.recently-viewd-header {
+    grid-column: 1 / -1;
+}
+
+.recently-viewd-cart {
+    width: 100%;
 }
