@@ -518,3 +518,61 @@ body{
     border-radius: 50vh;
     background-color: white;
 }
+/* products grid*/
+
+
+.product-tag {
+    padding: 15px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+}
+
+.product-tag button {
+    font-size: 12px;
+    padding: 5px 10px;
+    border-radius: 20px;
+    border: 1px solid #ddd;
+    background: #fff;
+    cursor: pointer;
+}
+
+.product-tag button:hover {
+    background: #ff904f;
+    color: #fff;
+}
+
+.filter-bar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+    padding: 10px;
+    border-radius: 4px;
+}
+
+
+.filter-left {
+    display: flex;
+    gap: 10px;
+}
+.filter-left i{
+    color: #ff904f;
+}
+.filter-left p{
+    color: #474747;
+    font-size: 14px;
+}
+#not-active{
+    color: #6d6d6d;
+}
+.filter-right {
+    background-color: rgb(255, 255, 255);
+    border-radius: 50vh;
+    padding: 6px;
+    border: 1px solid #ccc;
+}
+.filter-right select {
+    padding: 4px;
+    border: none;
+}
