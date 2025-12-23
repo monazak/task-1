@@ -3,10 +3,13 @@
     padding: 0;
     box-sizing: border-box;    
 }
+body{
+    margin: 0 20vh 0 20vh;
+    text-transform: capitalize;  
+}
 .site-container {
-    width: 100%;
-    height: 100%;
     font-family: Arial, sans-serif;
+    background-color: #f7f7f7;
 }
 .hero-container {
     display: flex;
@@ -36,4 +39,226 @@
 }
 .hero-links a i {
     margin-right: 5px;
+}
+.hero-links a:hover {
+    text-decoration: underline;
+}
+/** header styles **/
+.site-header{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 0 0 0;
+    background-color: #ffffff;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+.main-header{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    padding: 10px 0;
+    justify-content: space-between;
+    gap: 20px;
+}
+.logo-container{
+    font-size: 22px;
+    font-weight: bold;
+    color: #ff904f;
+    text-decoration: none;
+}
+.logo-container span{
+    color: #3a3a3a;
+}
+.details-1, .details-2{
+    align-items: center;
+    font-size: 12px;
+    width: 100px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+.details-2{
+    color: #ff904f;
+}
+.search-container {
+    flex: 1;
+    margin: 0 20px 0 0;
+    position: relative;
+    display: flex;
+    align-items: center;
+    border-radius: 50vh;
+    border: 1px solid #f1f1f1;
+    overflow: hidden; 
+}
+
+.search-input {
+    width: 100%;
+    padding: 10px 15px;
+    font-size: 16px;
+    border: none;
+    outline: none;
+    border-radius: 50vh 0 0 50vh;
+}
+
+.search-button {
+    background-color: #ff904f;
+    border: none;
+    color: white;
+    padding: 10px 16px;
+    cursor: pointer;
+    font-size: 16px;
+    border-radius: 0 50vh 50vh 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.search-button:hover {
+    background-color:#ff904f;
+}
+
+.favorite-container {
+    position: relative;
+    cursor: pointer;
+    margin-right: 25px;
+}
+
+.favorite-icon {
+    font-size: 22px;
+    color: #333;
+}
+
+.favorite-count {
+    position: absolute;
+    top: -6px;
+    right: -10px;
+    background-color:#ff904f;
+    color: #fff;
+    font-size: 12px;
+    padding: 2px 6px;
+    border-radius: 50%;
+    line-height: 1;
+}
+
+.full-cart-container {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    cursor: pointer;
+}
+
+.cart-container {
+    position: relative;
+}
+
+.cart-icon {
+    font-size: 22px;
+    color: #333;
+}
+
+.cart-count {
+    position: absolute;
+    top: -6px;
+    right: -10px;
+    background-color:#ff904f;
+    color: #fff;
+    font-size: 12px;
+    padding: 2px 6px;
+    border-radius: 50%;
+    line-height: 1;
+}
+
+.cart-price-container {
+    display: flex;
+    flex-direction: column;
+    line-height: 1.2;
+}
+
+.cart-text {
+    font-size: 12px;
+    color: #777;
+    text-transform: uppercase;
+}
+
+.cart-price {
+    font-size: 14px;
+    font-weight: 600;
+    color: #000;
+}
+
+/** all categories nav styles **/
+.all-categories-nav {
+    width: 100%;
+    border-top: 1px solid #e0e0e0;
+    color: black;
+}
+
+.all-categories-list {
+    display: flex;
+    align-items: center;
+    list-style: none;
+    margin: 0;
+    gap: 40px;
+    font-size: 15px;
+}
+
+/* All Categories Button */
+.all-categories-container {
+    display: flex;
+    gap: 8px;
+}
+
+.all-categories-header {
+    font-size: 16px;
+    font-weight: 600;
+    text-transform: uppercase;
+    color: #ffffff;
+    text-decoration: none;
+    background-color: #ff904f;
+    width: 30vh;
+    display: flex;
+    align-items: center;
+    border-radius: 4px;
+    padding: 15px ;
+    height: 100%;
+    gap: 10px;
+}
+
+.all-categories-header i {
+    font-size: 16px;    
+}
+.all-categories-header:hover {
+    background-color: #ff904f;
+    text-decoration: none;
+}
+/* Tabs */
+.tabs-container {
+    flex: 1;
+    display: flex;
+}
+
+.tabs-list {
+    display: flex;
+    align-items: center;
+    list-style: none;
+    margin: 0;
+    gap: 40px;
+    justify-content: space-between;
+}
+
+.tabs-list li a {
+    text-decoration: none;
+    font-size: 15px;
+    font-weight: 500;
+    text-transform: capitalize;
+    color: rgb(54, 54, 54);
+}
+
+.tabs-list li a:hover,
+.all-categories-header:hover {
+    text-decoration: underline;
 }
