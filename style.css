@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;    
+}
+.site-container {
+    width: 100%;
+    height: 100%;
+    font-family: Arial, sans-serif;
+}
+.hero-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px 10px;
+    background-color: #3a3a3a;
+    color: #edecec;
+    font-size: 12px;
+}
+.hero-left-container, .hero-right-container {
+    display: flex;
+    align-items: center;
+}
+.number-container, .email-container {
+    display: flex;
+    align-items: center;
+    margin-right: 20px;
+}
+.number-icon, .email-icon {
+    margin-right: 8px;
+}
+.hero-links a {
+    margin-left: 15px;
+    text-decoration: none;
+    color: #ffffff;
+}
+.hero-links a i {
+    margin-right: 5px;
+}
