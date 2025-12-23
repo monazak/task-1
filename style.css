@@ -502,5 +502,19 @@ body{
     margin-top: 8px;
     color: #333;
 }
+.product-tag h4{
+    padding-bottom: 10px;
+    color:#474747;
+}
 
-
+.product-tag-buttons{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;    
+}
+.product-tag button{
+    padding: 10px;
+    border:1px solid #bdbcbc;
+    border-radius: 50vh;
+    background-color: white;
+}
