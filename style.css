@@ -703,3 +703,34 @@ body{
 .recently-viewd-cart {
     width: 100%;
 }
+
+.search-keywords {
+    margin-top: 40px;
+    padding-top: 20px;
+    border-top: 1px solid #e5e5e5;
+    font-size: 13px;
+    color: #666;
+    padding: 5px 20vh 5px 20vh;
+}
+
+.search-keywords h4 {
+    font-size: 14px;
+    font-weight: 600;
+    margin-bottom: 10px;
+    color: #333;
+}
+
+.search-keywords p {
+    margin: 6px 0;
+    line-height: 1.8;
+}
+
+.search-keywords a {
+    color: #777;
+    text-decoration: none;
+    transition: color 0.2s ease;
+}
+
+.search-keywords a:hover {
+    color: #ff904f; /* match your theme */
+}
