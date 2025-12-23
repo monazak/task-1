@@ -626,3 +626,23 @@ body{
     display: hidden;
         margin-left: 50px;
 }
+.page-number-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    margin: 30px 0;
+}
+
+.page-number,
+.page-number-container button {
+    border: 1px solid #ddd;
+    background: #fff;
+    padding: 6px 10px;
+    cursor: pointer;
+}
+
+.page-number.active {
+    background: #ff904f;
+    color: #fff;
+}
